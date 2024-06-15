@@ -3,3 +3,84 @@ body {
   height: 100%;
   margin: 0;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  text-align: center;
+   
+  color: black;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+.navbar {
+  text-align: center;
+  background-color: #808080;
+  padding: 10px 0;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#featured-property {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.caption {
+  font-size: 14px;
+}
+
+#details {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333; 
+  color: white;
+}
+
+.bottom-div {
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
